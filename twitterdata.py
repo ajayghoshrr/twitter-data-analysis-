@@ -14,8 +14,8 @@ import matplotlib.pyplot as plt
 pd.set_option('display.mpl_style', 'default')
 
 
-consumerKey = 'iPIcJAmPTQYiEZ3FF01iuVcvI'
-consumerSecret = '8P39msYkvZHdP4wxbhtl7GhFvUfAlJVSMPMTQJRAQr2ESDUbxR'
+consumerKey = 'YOUR CONSUMER KEY'
+consumerSecret = 'CONSUMER SECRET
 
 #Use tweepy.OAuthHandler to create an authentication using the given key and secret
 auth = tweepy.OAuthHandler(consumer_key=consumerKey, 
@@ -135,10 +135,10 @@ for line in gzip.open(?lePath, 'rb'):
   tweetObj = json.loads(reader.decode(line)[0])
   except Exception as e:
   continue # Deleted status messages and protected status must be skipped
-   if ( "delete" in tweetObj.keys() or “status_withheld" in tweetObj.keys() ):
+   if ( "delete" in tweetObj.keys() or â€œstatus_withheld" in tweetObj.keys() ):
    continue
    else:
-    frequencyMap[currentTime] = {"count":1, “list":[tweetObj]}
+    frequencyMap[currentTime] = {"count":1, â€œlist":[tweetObj]}
     # Fill in any gaps
      times = sorted(frequencyMap.keys())
      ?rstTime = times[0]
