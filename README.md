@@ -1,5 +1,6 @@
 # twitter-data-analysis-
-Data analysis of Twitter big data using Python
+
+Data analysis of Twitter Big data using Python
 
 
 STEPS FOR BIG DATA ANALYTICS IN TWITTER
@@ -11,18 +12,26 @@ Perform real-time data analysis of Twitter data using a pipeline built on Google
 
 Requirements- 
 
+
 PYTHON 2.7-PYTHON 3.5(latest)
-Cloud based application - Wakari IO , IBM Bluemix , AWS
-Database - Redis
+
+NumPy, MatplotLib, pandas, Tweepy etc.
 
 
-Run the code in cloud based platform , in the form of notebook.
+Run the code in cloud based platform , in the form of notebook.(Wakari IO)
 
-import required packages , modules,
-create the twitter id- Goto-> application/product development get the consumer key and consumer secret key and give to the code ,
-that is replace my KEY and ID ,
-consumerKey = 'iPIcJAmPTQYiEZ3FF01iuVcvI'
-consumerSecret = '8P39msYkvZHdP4wxbhtl7GhFvUfAlJVSMPMTQJRAQr2ESDUbxR'
+import required packages ,modules,
 
-Run the code , get the ouput , store the information using REDIS( Cloud based database) , sqlite3 can also used in python.
+create the twitter id- Goto-> application/product development get the consumer key and consumer secret key and replace in code,
+
+consumerKey = "consumerkey"
+
+consumerSecret = 'Consumer Secret'
+
+
+Run the code , get the ouput , store the information using any DB or JSON,CSV,XML
+
+sqlite3 can also used for storage.
+
 Analyze the output , store the Data , access the data , manipulate the data using Big query
+
