@@ -2,7 +2,7 @@
 
 Search for Tweets and download the data labeled with it's Polarity in CSV format
 
-View Live at [https://twitter-sentiment-csv.herokuapp.com/](https://twitter-sentiment-csv.herokuapp.com/)
+View Live at [https://twitter-sentiment-csv.herokuapp.com/](https://twitter-sentiment-csv.herokuapp.com/)  - Credits - rhnvrm
 
 [![](http://i.imgur.com/H78FZUX.png)](http://i.imgur.com/H78FZUX.png)
 
@@ -22,4 +22,5 @@ https://www.youtube.com/watch?v=o_OZdbCzHUA
 And was featured in the next video in the series:
 https://www.youtube.com/watch?v=9gBC9R-msAk
 
-## [License MIT © Rohan Verma](https://rhnvrm.mit-license.org/)
+
+Complete credits Goes to Rohan Verma( https://rhnvrm.mit-license.org/  , https://www.linkedin.com/in/rhnvrm/ )| Siraj Raval (@sirajraval) 
