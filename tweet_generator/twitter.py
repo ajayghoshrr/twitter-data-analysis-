@@ -13,15 +13,15 @@ class TwitterClient(object):
     '''
     def __init__(self, query, retweets_only=False, with_sentiment=False):
         # keys and tokens from the Twitter Dev Console
-        #consumer_key = os.environ['QU2BhMy9th0YCufv29pUPYrns']
-        consumer_key = 'QU2BhMy9th0YCufv29pUPYrns'
-        #consumer_secret = os.environ['OFflhaTabnJBFtlmUtn97whTiDF7Cs6ElUVHy0q1MpPBgi0bbT']
-        consumer_secret = 'OFflhaTabnJBFtlmUtn97whTiDF7Cs6ElUVHy0q1MpPBgi0bbT'
-        #access_token = os.environ['1358275434-HuunDh25a0mN9QlwvPjbsAK5hI4o5v9NoIbyp5J']
-        access_token = '1358275434-HuunDh25a0mN9QlwvPjbsAK5hI4o5v9NoIbyp5J'
-        #access_token_secret = os.environ['Obbqg9AshVcfW2zw5wXarz6SxWg5BYJGXcN9DH8Y1gpzY']
-        access_token_secret = 'Obbqg9AshVcfW2zw5wXarz6SxWg5BYJGXcN9DH8Y1gpzY'
-        #print(os.environ['QU2BhMy9th0YCufv29pUPYrns'])
+        #consumer_key = os.environ['CONSUMER_KEY']
+        consumer_key = 'CONSUMER_KEY'
+        #consumer_secret = os.environ['CONSUMER_SECRET']
+        consumer_secret = 'CONSUMER_SECRET'
+        #access_token = os.environ['ACCESS_TOKEN']
+        access_token = 'ACCESS_TOKEN'
+        #access_token_secret = os.environ['TOKEN_SECRET']
+        access_token_secret = 'TOKEN_SECRET'
+      
         # Attempt authentication
         try:
             self.auth = OAuthHandler(consumer_key, consumer_secret)
